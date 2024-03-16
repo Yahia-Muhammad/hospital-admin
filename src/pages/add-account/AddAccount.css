@@ -1,0 +1,12 @@
+.form-add-doctor {
+  display: flex;
+  flex-direction: column;
+}
+.form-add-doctor input,
+.form-add-doctor select {
+  width: 100%;
+  height: 48px;
+  border-radius: 4px;
+  padding: 0 25px;
+  margin-bottom: 22px;
+}

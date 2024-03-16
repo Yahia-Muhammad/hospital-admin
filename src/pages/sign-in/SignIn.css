@@ -1,0 +1,39 @@
+.sign-in > section {
+  width: 630px;
+  margin: var(--mainMargin);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign-in > section form {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.sign-in > section input,
+.sign-in > section form button {
+  border-radius: 4px;
+  width: 100%;
+  height: 48px;
+  color: linear-gradient(0deg, #c8c8c8, #c8c8c8),
+    linear-gradient(0deg, #fbfbfb, #fbfbfb);
+  border: 2px solid #c8c8c8;
+  margin-bottom: 25px;
+  padding: 0 25px;
+}
+
+.sign-in > section form button {
+  background: linear-gradient(92.51deg, #ffffff -21.24%, #efa63f 49.76%);
+  border: none;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .sign-in > section {
+    width: var(--mainWidth);
+  }
+}

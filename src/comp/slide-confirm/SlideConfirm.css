@@ -1,0 +1,18 @@
+.slide-confirm {
+  position: fixed;
+  right: -10px;
+  top: 20vh;
+  background: var(--mainColor);
+  color: #fff;
+  padding: 10px 45px;
+  border-radius: 7px;
+  transition: transform 0.5s;
+}
+
+.hide-confirm {
+  transform: translate(101%, 0%);
+}
+
+.show-confirm {
+  transform: translate(0%, 0%);
+}

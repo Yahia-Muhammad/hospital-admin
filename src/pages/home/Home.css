@@ -1,0 +1,34 @@
+.container-books {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+table {
+  width: 100%;
+}
+
+table td {
+  padding: 0 10px;
+}
+
+table a {
+  border: none;
+  text-decoration: underline;
+  color: var(--mainColor);
+}
+
+table select {
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+table select:focus {
+  border-color: none;
+  outline: none;
+}

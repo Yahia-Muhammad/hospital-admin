@@ -1,0 +1,37 @@
+.form-add-doctor {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-add-doctor input,
+.form-add-doctor select,
+.attend button {
+  width: 100%;
+  height: 48px;
+  border-radius: 4px;
+  padding: 0 25px;
+  margin-bottom: 22px;
+}
+
+.attend {
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.attend span {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+}
+
+.attend span input {
+  width: 75%;
+  margin-left: 10px;
+}
+
+input[type="file"] {
+  padding: 14px 0px !important;
+  width: 25% !important;
+}

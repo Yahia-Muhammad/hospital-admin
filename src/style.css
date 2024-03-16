@@ -1,0 +1,176 @@
+/**************************************************/
+/****************** Global Code **********************/
+/**************************************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  direction: ltr;
+  font-family: "Cairo", sans-serif;
+}
+
+:root {
+  --mainWidth: 85%;
+  --smallWidth: 65%;
+  --mainMargin: 0 auto;
+  --mainColor: #2d7588;
+}
+
+/* =========== Margin Top And Bottom =========== */
+
+.mt {
+  margin-top: 1rem;
+}
+
+.mtt {
+  margin-top: 2rem;
+}
+
+.mttt {
+  margin-top: 3rem;
+}
+
+.mb {
+  margin-bottom: 1rem;
+}
+
+.mbb {
+  margin-bottom: 2rem;
+}
+
+.mbbb {
+  margin-bottom: 3rem;
+}
+
+/* =========== Size h1 to h6 =========== */
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 45px 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 19px;
+  margin-left: 10px;
+  color: var(--mainColor);
+  border-bottom: 1px solid var(--mainColor);
+  display: inline-block;
+}
+
+h4 {
+  font-size: 17px;
+  display: inline-block;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+}
+
+/* =========== default ul and li and a and button =========== */
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  all: inherit;
+}
+
+button,
+.icon,
+.pointer {
+  cursor: pointer;
+}
+
+/* =========== Global All Main Pages  =========== */
+
+.main {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.main-bg {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.contents {
+  width: var(--mainWidth);
+  margin: var(--mainMargin);
+}
+
+.p-sign {
+  position: absolute;
+  top: 55vh;
+  left: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.p-sign span:first-child {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #000;
+}
+.p-sign span:last-child {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 29px;
+  color: #e7e7e7;
+}
+
+/* =========== Utils =========== */
+
+.width49 {
+  width: 49%;
+}
+
+section h3 {
+  margin-left: 0;
+}
+
+ul.lsp {
+  list-style: disc;
+  list-style-position: inside;
+}
+
+.bubbles-img {
+  position: absolute;
+  z-index: -1;
+}
+
+.behind-content {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.2;
+  width: 70%;
+}
+
+@media (max-width: 768px) {
+  .behind-content {
+    width: 120% !important;
+  }
+}
