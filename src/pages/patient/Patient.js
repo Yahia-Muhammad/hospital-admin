@@ -172,6 +172,7 @@ const Patient = () => {
                         <input type="text" placeholder="Booking Date" onChange={(e) => { setBookingDate(e.target.value) }} defaultValue={bookingDate} readOnly />
                         <select value={check} onChange={(e) => { setCheck(e.target.value) }}>
                             <option>Check</option>
+                            <option value={"Waiting"}>Waiting</option>
                             <option value={"Not Done"}>Not Done</option>
                             <option value={"Done"}>Done</option>
                         </select>
