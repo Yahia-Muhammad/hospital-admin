@@ -4,7 +4,7 @@ const AttendEdit = ({ arrAttend, onUpdateAttend }) => {
     const [attend, setAttend] = useState([]);
 
     useEffect(() => {
-        const updatedAttend = arrAttend.map(jsonString => JSON.parse(jsonString));
+        const updatedAttend = arrAttend.map(jsonString => jsonString);
         setAttend(updatedAttend);
     }, [arrAttend]);
 
